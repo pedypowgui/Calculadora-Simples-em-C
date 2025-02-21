@@ -28,6 +28,7 @@ int main(void) {
     printf("Digite o segundo número para a operação desejada: ");
     scanf("%f", &num2);
 
+    //Verificações de seleção de operação a ser realizada
     if(opc == 1) {
         res = add(num1, num2);
     } else if (opc == 2) {
